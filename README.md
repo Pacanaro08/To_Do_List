@@ -1,0 +1,1 @@
+This is just me training POO skills and tkinter (maybe json and sqlite)
