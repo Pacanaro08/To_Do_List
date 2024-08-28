@@ -1,6 +1,6 @@
 from tkinter import *
 
-class Janela:
+class Window:
     def __init__(self, master=None):
         self.master = master
         self.build()
@@ -80,5 +80,5 @@ root.title("To Do List Helper")
 root.geometry("400x550+50+50")
 root.attributes("-topmost", 1)
 root.resizable(False, False)
-Janela(root)
+Window(root)
 root.mainloop()
